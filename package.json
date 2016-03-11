@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/chemceem/ExpressEntrySystem/issues"
   },
-  "homepage": "https://github.com/chemceem/ExpressEntrySystem#readme"
+   "dependencies": {
+      "express": "^4.13.4",
+      "morgan" : "~1.3.0",
+      "compression":"~1.0.11",
+      "body-parser":"~1.8.0",
+      "method-override":"~2.2.0",
+      "ejs" : "~1.0.0"
+  },
+  //"homepage": "https://github.com/chemceem/ExpressEntrySystem#readme"
 }
