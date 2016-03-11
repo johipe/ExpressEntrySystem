@@ -1,0 +1,34 @@
+<!-- template for the Contact Me page -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <% include partials/page/head.ejs  %>
+</head>
+
+<body>
+    <% include partials/page/header.ejs %>
+    <div class="container">
+        <h1><%= description %></h1>
+    </div>
+    <section class="layout">
+        <div class="primary">
+            <form action="/submit" method="POST">
+                <input type="text" name="name" placeholder="Your Name " required><br>
+                <input type="email" name="email" placeholder="Your Email" required><br>
+                <textarea name="" id="" cols="30" rows="10" placeholder="What would you like to ask ?" required></textarea><br>
+                <input type="submit" />
+            </form>
+        </div>
+        <aside class="secondary">
+            <div>
+                <img src="images/misc/contact.jpg" alt="contact image" style="max-width:100%; height: auto;  width: auto\9;">
+            </div>
+            
+        </aside>
+    </section>
+    <% include partials/page/footer.ejs %>    
+    <% include partials/page/jsdefaults.ejs %>
+</body>
+
+</html>

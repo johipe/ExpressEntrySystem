@@ -1,0 +1,31 @@
+<!-- template for the About page of the application-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include partials/page/head.ejs  %>
+</head>
+
+<!-- Body starts here-->
+
+<body class="index">
+    <% include partials/page/header.ejs %>
+        <div class="container">
+            <h1><%= description %></h1>
+        </div>
+        <section class="layout">
+            <div class="primary">
+                <p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ipsa ut laudantium magni, voluptates ex. Deleniti corporis maiores possimus architecto labore, dolorum aperiam laudantium, reiciendis quod quisquam recusandae odit temporibus!</p>
+            </div>
+            <aside class="secondary">
+                <div><img src="images/misc/about.jpg" alt="contact image" style="max-width:100%; height: auto;  width: auto\9;">
+                </div>
+            </aside>
+        </section>
+
+        <% include partials/page/footer.ejs %>
+        <% include partials/page/jsdefaults.ejs %>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!-- template for the Projects page of the application-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include partials/page/head.ejs  %>
+</head>
+
+<!-- Body starts here-->
+
+<body class="index">
+    <% include partials/page/header.ejs %>
+        <div class="container">
+            <h1><%= description %></h1>
+        </div>
+        <section class="layout">
+            <div class="primary">
+                <div><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium cumque voluptate libero perspiciatis cupiditate, recusandae vitae perferendis. Doloribus ipsam animi illo rerum. Id architecto labore dignissimos eveniet, ducimus eaque tempora?
+                </p>
+                    
+                </div>
+
+            </div>
+            <aside class="secondary">
+                <div>
+                    <img src="images/misc/projects.jpg" alt="Image" style="max-width:100%; height: auto;  width: auto\9;">
+                </div>
+            </aside>
+        </section>
+
+        <% include partials/page/footer.ejs %>
+        <% include partials/page/jsdefaults.ejs %>
+
+</body>
+
+</html>
