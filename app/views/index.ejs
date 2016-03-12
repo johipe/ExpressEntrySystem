@@ -1,0 +1,34 @@
+<!-- template for the Home page of the application-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include partials/page/head.ejs  %>
+</head>
+
+<!-- Body starts here-->
+
+<body class="index">
+    <% include partials/page/header.ejs %>
+        <div class="container">
+            <h1><%= description %></h1>
+        </div>
+        <section class="layout">
+            <div class="primary">
+                <br><div style="align:center;"> Chemcee <i class="fa fa-heart"></i>'s coding.</div><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum error ut fuga, et reiciendis amet neque temporibus nostrum asperiores. Nam autem ut consequuntur, enim eveniet dolor atque deserunt quia possimus.
+                </p>
+            </div>
+            <div>      
+                <aside class="secondary">
+                    <img src="images/misc/services.jpg" alt="Image" style="max-width:100%; height: auto;  width: auto\9;">
+                </aside>
+            </div>
+        </section>
+
+        <% include partials/page/footer.ejs %>
+        <% include partials/page/jsdefaults.ejs %>
+
+</body>
+
+</html>
